@@ -82,11 +82,11 @@ function initGallery() {
   if (!galleryGrid || !lightbox || !lightboxImage || !closeBtn) return;
 
   const galleryImages = [
-    { src: 'images/Birthday.jpeg', alt: 'Birthday celebration decor' },
-    { src: 'images/img2.jpeg', alt: 'Event photo 2' },
-    { src: 'images/img3.jpeg', alt: 'Event photo 3' },
-    { src: 'images/img4.jpeg', alt: 'Event photo 4' },
-    { src: 'images/img5.jpeg', alt: 'Event photo 5' },
+    { src: 'Birthday.jpeg', alt: 'Birthday celebration decor' },
+    { src: 'img2.jpeg', alt: 'Event photo 2' },
+    { src: 'img3.jpeg', alt: 'Event photo 3' },
+    { src: 'img4.jpeg', alt: 'Event photo 4' },
+    { src: 'img5.jpeg', alt: 'Event photo 5' },
   ];
 
   galleryGrid.innerHTML = galleryImages.map(({ src, alt }) =>
